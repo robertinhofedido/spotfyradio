@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+  
+}
+
+.container{
+    position: relative;
+    margin: auto;
+    top: 25px;
+    width: 790px;
+    height: 474px;
+    margin-top: 80px;
+    border-radius: 10px;    
+    /* background-image:url(https://media.discordapp.net/attachments/838563215986262066/839669017040257024/aaaa.png?width=792&height=473); */
+}
+
+.painel{
+    position: relative;
+    left: 20px;
+    top: 20px;
+    width: 680px;
+    height: 250px;
+    border-radius: 67px 0px 0px 67px;
+    background-color: #2e2e2e;
+}
+.botoes{
+    position: relative;
+    top: 90px;
+    width: 756px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: transparent;
+
+}
+/* Aqui é onde ficava o nome da cidade */
+ .piong{
+    width: 300px;
+    height: 30px;
+    bottom: 25px;
+    left: 20px;
+    text-align: center;
+    background-color:rgb(0, 0, 0);
+    font-family: 'Permanent Marker', cursive;
+    position: relative;
+    margin: auto;
+    color: rgb(255, 255, 255);
+} 
+.imput{
+    position: relative;
+    left: 60px;
+    top: 35px;
+    width: 370px;
+    
+
+}
+
+input[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #fff;
+    border-radius: 40px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    background-image: url('https://media.discordapp.net/attachments/759623381543813192/840018155661164584/lupa.png');
+    background-size:25px ;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+  }
+
+  .logo{
+      position: relative;
+      margin: auto;
+      width: 200px;
+      height: 200px;
+      bottom: 18px;
+      left: 216px;
+      background-image: url('https://media.discordapp.net/attachments/759623381543813192/840088951095558154/logo.png');
+      background-size: 200px;
+      background-repeat: no-repeat;
+      
+  }
+/* barra de progressão */
+  .progress-container {
+      position: relative;
+      bottom: 120px;
+      left: 100px;
+    height: 0.8rem;
+    width: 280px;
+    border-radius: 0.4rem;
+    background: #dfa72f;
+  }
+  
+  .progress-container .progress {
+    height: 100%;
+    width: 0;
+    border-radius: 0.4rem;
+    background: #0004fd44;
+    transition: width 0.4s ease;
+  }
+  /* parar */
+  .botao{
+    position: relative;
+    height: 110px;
+    width: 300px;
+    margin: auto;
+    bottom: 258px;
+    right: 135px;
+    background-size: 300px;
+    background-image: url('https://media.discordapp.net/attachments/759623381543813192/840087164351021066/parar.png');
+  }
+
+#botaolupe{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 2px;
+    border-radius: 25px;
+}
+
+
+.slidecontainer {
+    width: 280px;
+    position: absolute;
+    bottom: 155px;
+    left: 30px;
+  }
+  /* slider de volume */
+  .slider {
+    position: absolute;
+    right: 210px;
+    bottom: 75px;
+    -webkit-appearance: none;
+    width: 40%;
+    height: 9px;
+    border-radius: 5px;  
+    background: #dfa72f;
+    transform: rotate(-90deg);
+    outline: none;
+    opacity: 1.0;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%; 
+    background: #8e04b9;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #04AA6D;
+    cursor: pointer;
+  }
